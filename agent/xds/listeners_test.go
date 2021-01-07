@@ -727,7 +727,7 @@ const customHTTPListenerJSONTpl = `{
 					{{- end }}
 						"http_filters": [
 							{
-								"name": "envoy.router"
+								"name": "envoy.filters.http.router"
 							}
 						],
 						"route_config": {
